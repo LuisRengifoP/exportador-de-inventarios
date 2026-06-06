@@ -1,19 +1,19 @@
-# 📊 Exportador Inteligente de Inventarios
+# Exportador Inteligente de Inventarios
 
 Sistema de exportación y transformación de archivos Excel que permite cargar documentos de inventario con estructuras diferentes o desorganizadas y reorganizarlos automáticamente según la estructura estándar definida.
 
-## 🎯 Características Principales
+## Características Principales
 
-- ✅ **Carga múltiple de archivos** Excel (.xlsx, .xls)
-- 🔍 **Análisis automático** de la estructura de cada archivo
-- 🧠 **Mapeo inteligente** de columnas con detección de similitud
-- 🔄 **Transformación automática** al formato estándar
-- 📥 **Generación de Excel** estilizado y listo para importar
-- ⚠️ **Validación y advertencias** de columnas faltantes
-- 🎨 **Interfaz moderna** con drag & drop
-- 📱 **Diseño responsive** para móvil y escritorio
+- **Carga múltiple de archivos** Excel (.xlsx, .xls)
+- **Análisis automático** de la estructura de cada archivo
+- **Mapeo inteligente** de columnas con detección de similitud
+- **Transformación automática** al formato estándar
+- **Generación de Excel** estilizado y listo para importar
+- **Validación y advertencias** de columnas faltantes
+- **Interfaz moderna** con drag & drop
+- **Diseño responsive** para móvil y escritorio
 
-## 🏗️ Estructura del Proyecto
+##  Estructura del Proyecto
 
 ```
 exportador_inventarios/
@@ -29,7 +29,7 @@ exportador_inventarios/
     └── Estructura de distriapp.xlsx
 ```
 
-## 🚀 Instalación y Configuración
+## Instalación y Configuración
 
 ### Paso 1: Preparar el entorno
 
@@ -128,7 +128,7 @@ El sistema transforma los datos a las siguientes columnas estándar:
 | `Iva` | Entero | Porcentaje de IVA (default: 19) |
 | `url_key` | Texto | Clave URL amigable |
 
-## 🧠 Algoritmo de Mapeo Inteligente
+## Algoritmo de Mapeo Inteligente
 
 El sistema utiliza múltiples estrategias para identificar columnas:
 
@@ -164,14 +164,14 @@ DEFAULT_VALUES = {
 }
 ```
 
-## 🔒 Seguridad
+## Seguridad
 
 - Los archivos subidos se almacenan temporalmente en `uploads/`
 - Los archivos procesados se guardan en `outputs/`
 - Límite de tamaño: 50MB por archivo
 - Se recomienda limpiar periódicamente las carpetas `uploads/` y `outputs/`
 
-## 🐛 Solución de Problemas
+## Solución de Problemas
 
 ### Error "No module named 'flask'"
 ```bash
@@ -195,7 +195,7 @@ python app.py --port 5001
 # O editar app.py y cambiar port=5000 a port=5001
 ```
 
-## 📝 Notas Técnicas
+## Notas Técnicas
 
 - **Backend**: Flask (Python 3.8+)
 - **Procesamiento**: Pandas + OpenPyXL
@@ -203,10 +203,10 @@ python app.py --port 5001
 - **Estilos**: Diseño moderno con CSS Grid y Flexbox
 - **Responsive**: Compatible con móviles, tablets y escritorio
 
-## 📄 Licencia
+## Licencia
 
 Proyecto desarrollado para estandarización de inventarios.
 
 ---
 
-**Desarrollado con ❤️ para automatizar la gestión de inventarios**
+**Desarrollado para automatizar la gestión de inventarios**
