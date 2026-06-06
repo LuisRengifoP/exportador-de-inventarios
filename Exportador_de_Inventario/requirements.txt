@@ -1,0 +1,18 @@
+# Exportador Inteligente de Inventarios - Dependencias
+# ================================================
+# Compatible con Python 3.14+
+# Instalar con: pip install -r requirements.txt
+
+# Framework Web
+Flask==3.0.3
+
+# Procesamiento de datos (versiones compatibles con Python 3.14)
+pandas==2.3.3
+numpy==2.2.0
+
+# Lectura/Escritura Excel
+openpyxl==3.1.5
+xlrd==2.0.1
+
+# Utilidades
+Werkzeug==3.0.3
